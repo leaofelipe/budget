@@ -23,8 +23,6 @@ test('should clear a textFilter', () => {
   })
 })
 
-
-
 test('should generate set start date object', () => {
   const date = moment(0)
   const action = setStartDate(date)
