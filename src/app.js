@@ -12,9 +12,6 @@ import {setTextFilter} from "./actions/filters"
 import getVisibleExpenses from "./selectors/expenses"
 
 const store = configureStore()
-store.dispatch(addExpense({description: 'Water', amount: 2}))
-store.dispatch(addExpense({description: 'Gas', amount: 3}))
-console.log(store.getState())
 
 const jsx = (
   <Provider store={store}>
